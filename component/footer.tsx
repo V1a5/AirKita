@@ -15,7 +15,7 @@ export default function Footer() {
             <span>PendidikanKita</span>
           </div>
           <p className="text-sm opacity-90">
-            © 2024 PendidikanKita. by Muhammad Vlas.
+            © 2026 PendidikanKita. by Muhammad Vlas.
           </p>
         </div>
         
