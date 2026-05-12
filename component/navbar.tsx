@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 const navLinks = [
   { href: "/", label: "Beranda" },
   { href: "/empathy", label: "Empati dan Penelitian" },
-  { href: "/ide", label: "Ide" },
+  { href: "/idea", label: "Ide" },
   { href: "/prototipe", label: "Prototipe" },
   { href: "/pengujian", label: "Pengujian dan Peninjauan" },
   { href: "/refleksi", label: "Refleksi" },
