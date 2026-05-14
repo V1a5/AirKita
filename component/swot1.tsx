@@ -101,7 +101,7 @@ export default function Swot1() {
 
                     <ul className="text-sm text-yellow-700 list-disc pl-5 space-y-2">
                         <li className="text-justify leading-relaxed">
-                            Krisis Air dan Dampak Urbanisasi Tekanan urbanisasi dan perubahan iklim memicu kelangkaan air bersih serta peningkatan risiko penyakit berbasis air hingga 35%. Kebijakan publik yang belum sinkron dalam melindungi cadangan air tanah mengancam keberlanjutan pasokan air bagi masyarakat luas di masa depan.
+                            Urbanisasi dan perubahan iklim memicu krisis air bersih serta risiko penyakit hingga 35%, yang diperparah oleh kebijakan publik yang belum sinkron dalam melindungi cadangan air tanah.
                         </li>
                     </ul>
 
@@ -115,8 +115,7 @@ export default function Swot1() {
 
                 {/* Floating Center Badge */}
                 <div className="hidden md:flex absolute inset-0 items-center justify-center pointer-events-none">
-                    <div className="bg-white/80 backdrop-blur-md shadow-2xl rounded-full px-6 py-6 text-center border border-gray-200
-                    ">
+                    <div className="bg-white/80 backdrop-blur-md shadow-2xl rounded-full px-6 py-6 text-center border border-gray-200">
                         <p className="text-xs text-gray-500">SDG 6</p>
                         <p className="font-semibold text-sm text-gray-800">
                             Target 6.2

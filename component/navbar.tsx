@@ -35,16 +35,17 @@ export default function Navbar() {
     >
       <div className="flex justify-between items-center px-8 py-4 max-w-7xl mx-auto">
         {/* Logo */}
-        <Link href="/" className="text-xl font-bold text-[#ea6c00] flex items-center gap-2">
+        <Link href="/" className="text-xl font-bold text-[#0077b6] flex items-center gap-2">
+          {/* Water drop icon */}
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-6 w-6"
             viewBox="0 0 24 24"
             fill="currentColor"
           >
-            <path d="M12 3L1 9l4 2.18v6L12 21l7-3.82v-6l2-1.09V17h2V9L12 3zm6.82 6L12 12.72 5.18 9 12 5.28 18.82 9zM17 15.99l-5 2.73-5-2.73v-3.72L12 15l5-2.73v3.72z" />
+            <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"/>
           </svg>
-          <span>PendidikanKita</span>
+          <span>AirKita</span>
         </Link>
 
         {/* Hamburger mobile */}
@@ -73,8 +74,8 @@ export default function Navbar() {
                 href={link.href}
                 className={`transition-colors duration-200 pb-1 border-b-2 ${
                   isActive
-                    ? "text-[#ea6c00] font-bold border-[#ea6c00]"
-                    : "text-gray-600 hover:text-[#ea6c00] border-transparent"
+                    ? "text-[#0077b6] font-bold border-[#0077b6]"
+                    : "text-gray-600 hover:text-[#0077b6] border-transparent"
                 }`}
               >
                 {link.label}
@@ -99,8 +100,8 @@ export default function Navbar() {
               onClick={() => setIsMenuOpen(false)}
               className={`block text-sm transition-colors duration-200 ${
                 isActive
-                  ? "text-[#ea6c00] font-bold"
-                  : "text-gray-600 hover:text-[#ea6c00]"
+                  ? "text-[#0077b6] font-bold"
+                  : "text-gray-600 hover:text-[#0077b6]"
               }`}
             >
               {link.label}

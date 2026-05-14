@@ -18,10 +18,10 @@ const inter = Inter({
 
 
 export const metadata: Metadata = {
-  title: "PendidikanKita",
-  description: "Memastikan pendidikan berkualitas yang inklusif dan merata serta mempromosikan kesempatan belajar sepanjang hayat bagi semua masyarakat Indonesia.",
+  title: "AirKita",
+  description: "Mendukung akses sanitasi layak dan air bersih yang merata bagi seluruh masyarakat Indonesia sesuai SDG 6 Target 6.2.",
   icons: {
-    icon: "/gambar/pendidikankita.png",
+    icon: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💧</text></svg>",
   },
 };
 
