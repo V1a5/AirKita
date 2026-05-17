@@ -54,7 +54,7 @@ export default function Matrix() {
                                 <th className="text-left text-xs font-bold text-[#6b7280] uppercase tracking-wider p-4 bg-gray-50 border-b border-gray-200 w-1/5">
                                     Solusi yang sudah ada: nama perusahaan atau provider
                                 </th>
-                                <th className="text-left text-xs font-bold text-white uppercase tracking-wider p-4 bg-[#ea6c00] border-b border-[#ea6c00] w-1/4">
+                                <th className="text-left text-xs font-bold text-white uppercase tracking-wider p-4 bg-[#0077b6] border-b border-[#0077b6] w-1/4">
                                     JSDP (Jakarta Sewerage Development Project)
                                 </th>
                                 <th className="text-left text-xs font-bold text-[#6b7280] uppercase tracking-wider p-4 bg-gray-50 border-b border-gray-200 w-1/4">
@@ -78,8 +78,8 @@ export default function Matrix() {
                                             {param.name}
                                         </span>
                                     </td>
-                                    <td className="p-4 border-b border-gray-100 bg-[#fff7ed]">
-                                        <span className="text-sm text-[#92400e] leading-relaxed">
+                                    <td className="p-4 border-b border-gray-100 bg-[#e0f4fb]">
+                                        <span className="text-sm text-[#1a4a6b] leading-relaxed">
                                             {param.jsdp}
                                         </span>
                                     </td>

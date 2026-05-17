@@ -48,7 +48,6 @@ export default function RancanganPengumpulanData() {
                 },
             ],
         },
-
         {
             title: "Bagian 2",
             subtitle: "Sanitasi Fasilitas Publik & Lingkungan Kampus",
@@ -82,7 +81,7 @@ export default function RancanganPengumpulanData() {
                 {
                     no: 6,
                     question:
-                        '“Fasilitas toilet publik di lingkungan kegiatan saya terawat dengan baik dan layak digunakan.”',
+                        '"Fasilitas toilet publik di lingkungan kegiatan saya terawat dengan baik dan layak digunakan."',
                     image: "/gambar/data_gform/data6.jpg",
                     options: [
                         "1 - Sangat Tidak Setuju",
@@ -95,7 +94,6 @@ export default function RancanganPengumpulanData() {
                 },
             ],
         },
-
         {
             title: "Bagian 3",
             subtitle: "Praktik Kebersihan (Hygiene) & Kebutuhan Khusus",
@@ -143,14 +141,13 @@ export default function RancanganPengumpulanData() {
     ];
 
     return (
-        <section className="min-h-screen bg-gray-100 py-10 px-6 flex justify-center">
+        <section className="min-h-screen bg-[#f0f9ff] py-10 px-6 flex justify-center">
             <div className="w-full max-w-7xl">
                 {/* Header */}
                 <div className="mb-8">
-                    <p className="text-sm font-semibold text-orange-500 uppercase tracking-wide">
+                    <p className="text-sm font-semibold text-[#0077b6] uppercase tracking-wide">
                         Instrumen Survei — 9 Pertanyaan
                     </p>
-
                     <h1 className="text-3xl font-bold text-gray-800 mt-2">
                         Rancangan Pengumpulan Data
                     </h1>
@@ -161,21 +158,19 @@ export default function RancanganPengumpulanData() {
                     {sections.map((section, index) => (
                         <div
                             key={index}
-                            className="bg-gray-200 rounded-2xl p-6 shadow-sm"
+                            className="bg-[#e0f4fb] rounded-2xl p-6 shadow-sm"
                         >
                             {/* Title */}
                             <div className="mb-6">
                                 <div className="flex items-center gap-3 mb-2">
-                                    <span className="bg-orange-500 text-white text-xs font-bold px-3 py-1 rounded-full uppercase">
+                                    <span className="bg-[#0077b6] text-white text-xs font-bold px-3 py-1 rounded-full uppercase">
                                         {section.title}
                                     </span>
-
                                     <h2 className="text-xl font-semibold text-gray-800">
                                         {section.subtitle}
                                     </h2>
                                 </div>
-
-                                <p className="text-gray-600 text-sm">
+                                <p className="text-[#1a4a6b] text-sm">
                                     {section.description}
                                 </p>
                             </div>
@@ -185,21 +180,19 @@ export default function RancanganPengumpulanData() {
                                 {section.items.map((item, idx) => (
                                     <div
                                         key={idx}
-                                        className="bg-white rounded-xl p-5 border border-gray-100 shadow-sm"
+                                        className="bg-white rounded-xl p-5 border border-[#cce7f5] shadow-sm hover:border-[#0077b6] transition-colors"
                                     >
                                         {/* Header */}
                                         <div className="flex justify-between items-start gap-4 mb-4">
                                             <div>
-                                                <p className="text-sm text-gray-500 mb-2">
+                                                <p className="text-sm text-[#0077b6] font-medium mb-2">
                                                     Pertanyaan {item.no}
                                                 </p>
-
                                                 <h3 className="font-semibold text-gray-800 leading-relaxed">
                                                     {item.question}
                                                 </h3>
                                             </div>
-
-                                            <span className="text-[10px] font-semibold bg-gray-100 text-gray-600 px-2 py-1 rounded-md whitespace-nowrap">
+                                            <span className="text-[10px] font-semibold bg-[#e0f4fb] text-[#0077b6] px-2 py-1 rounded-md whitespace-nowrap">
                                                 {item.type}
                                             </span>
                                         </div>
@@ -209,14 +202,13 @@ export default function RancanganPengumpulanData() {
                                             {item.options.map((option, optionIndex) => (
                                                 <label
                                                     key={optionIndex}
-                                                    className="flex items-center gap-3 text-sm text-gray-700"
+                                                    className="flex items-center gap-3 text-sm text-[#1a4a6b]"
                                                 >
                                                     <input
                                                         type="radio"
                                                         disabled
-                                                        className="w-4 h-4"
+                                                        className="w-4 h-4 accent-[#0077b6]"
                                                     />
-
                                                     {option}
                                                 </label>
                                             ))}
@@ -225,7 +217,7 @@ export default function RancanganPengumpulanData() {
                                         {/* Button */}
                                         <button
                                             onClick={() => setSelectedImage(item.image)}
-                                            className="px-4 py-2 bg-orange-500 hover:bg-orange-600 text-white text-sm rounded-lg transition"
+                                            className="px-4 py-2 bg-[#0077b6] hover:bg-[#005f8e] text-white text-sm rounded-lg transition"
                                         >
                                             Lihat Bukti Gambar
                                         </button>
@@ -235,24 +227,23 @@ export default function RancanganPengumpulanData() {
                         </div>
                     ))}
 
-                    <div className="bg-white rounded-2xl p-6 shadow-sm border border-gray-100">
+                    {/* Tanggapan */}
+                    <div className="bg-white rounded-2xl p-6 shadow-sm border border-[#cce7f5]">
                         <div className="flex items-center gap-3 mb-4">
-                            <div className="w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center">
-                                <span className="text-orange-500 text-lg">📊</span>
+                            <div className="w-10 h-10 rounded-full bg-[#e0f4fb] flex items-center justify-center">
+                                <span className="text-[#0077b6] text-lg">📊</span>
                             </div>
-
                             <div>
                                 <h3 className="text-xl font-bold text-gray-800">
                                     Tanggapan terhadap Bukti yang Dikumpulkan
                                 </h3>
-
-                                <p className="text-sm text-gray-500">
+                                <p className="text-sm text-[#1a4a6b]">
                                     Analisis hasil survei sanitasi SDG 6 Target 6.2
                                 </p>
                             </div>
                         </div>
 
-                        <div className="space-y-4 text-gray-700 leading-relaxed text-justify">
+                        <div className="space-y-4 text-[#1a4a6b] leading-relaxed text-justify">
                             <p>
                                 Berdasarkan hasil survei terhadap <b>23 responden</b>,
                                 sebagian besar responden sudah memiliki akses sanitasi
@@ -260,14 +251,12 @@ export default function RancanganPengumpulanData() {
                                 memiliki toilet pribadi dan <b>78,3%</b> menggunakan
                                 toilet dengan tangki septik.
                             </p>
-
                             <p>
                                 Namun, masih ditemukan beberapa permasalahan penting,
                                 seperti <b>30,4%</b> responden belum mengelola limbah
                                 sanitasi dengan benar dan <b>52,2%</b> responden masih
                                 sering menemui genangan air akibat drainase yang buruk.
                             </p>
-
                             <p>
                                 Selain itu, fasilitas hygiene publik juga belum optimal.
                                 Ketersediaan fasilitas cuci tangan memperoleh skor
@@ -275,7 +264,6 @@ export default function RancanganPengumpulanData() {
                                 responden menyatakan fasilitas sanitasi publik belum
                                 menyediakan tempat sampah khusus pembalut.
                             </p>
-
                             <p>
                                 Secara keseluruhan, tingkat akses dan perilaku sanitasi
                                 memperoleh skor rata-rata <b>3,72/5 (74,5%)</b>. Hasil
@@ -292,15 +280,12 @@ export default function RancanganPengumpulanData() {
                 {selectedImage && (
                     <div className="fixed inset-0 z-50 bg-black/70 flex items-center justify-center p-6">
                         <div className="bg-white rounded-xl p-4 max-w-4xl w-full relative">
-                            {/* Close Button */}
                             <button
                                 onClick={() => setSelectedImage(null)}
-                                className="absolute top-1 right-1 bg-red-500 hover:bg-red-600 text-white w-7 h-7 rounded-full"
+                                className="absolute top-1 right-1 bg-[#0077b6] hover:bg-[#005f8e] text-white w-7 h-7 rounded-full transition"
                             >
                                 ✕
                             </button>
-
-                            {/* Image */}
                             <div className="relative w-full h-[500px] rounded-xl overflow-hidden">
                                 <Image
                                     src={selectedImage}
