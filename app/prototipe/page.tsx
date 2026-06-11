@@ -1,14 +1,14 @@
 import Navbar from "@/component/navbar";
 import Footer from "@/component/footer";
-import Hero from "@/idea_component/hero";
-import Mindmap from "@/idea_component/mindmap";
+import Hero from "@/prototipe_component/hero";
+
+
 
 export default function Idea() {
     return (
         <main className="min-h-screen">
             <Navbar />
             <Hero />
-            <Mindmap />
             <Footer />
         </main>
     )
