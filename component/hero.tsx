@@ -64,7 +64,14 @@ export default function Hero() {
             {/* SDG 6 MAIN — pakai GIF, col-span-2 row-span-2 */}
             <div className="col-span-2 row-span-2 bg-[#26bde2] w-52 h-50 rounded-md flex flex-col items-center justify-center text-white hover:scale-105">
               <a href="#Sdg-section">
-                <img src="/gambar/Goal 6/E_GIF_06.gif" alt="SDG 6 Icon" className="w-46 h-42" />
+                <video
+                  src="/gambar/Goal 6/E_GIF_06.mp4"
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  className="w-46 h-42"
+                />
               </a>
             </div>
 

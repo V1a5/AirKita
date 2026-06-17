@@ -63,9 +63,12 @@ export default function AboutSDG() {
         {/* Right Content */}
         <div className="lg:sticky lg:top-32 space-y-8">
           <div className="rounded-xl overflow-hidden aspect-square flex flex-col items-center justify-center">
-            <img
-              src="/gambar/Goal 6/6_SDG_MakeEveryDayCount_Gifs_GDU.gif"
-              alt="SDG 6 - Air Bersih dan Sanitasi"
+            <video
+              src="/gambar/Goal 6/E_GIF_06.mp4"
+              autoPlay
+              loop
+              muted
+              playsInline
               className="w-full h-full object-cover rounded-xl"
             />
           </div>
