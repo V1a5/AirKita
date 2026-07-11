@@ -1,4 +1,4 @@
-import { canvas, bottomCards } from "./lean_canvas_data.js";
+import { canvas, bottomCards } from "./lean_canvas_data";
 import {
   TriangleAlert,
   Lightbulb,
@@ -12,7 +12,7 @@ import {
   HandCoins,
 } from "lucide-react";
 
-const icons = {
+const icons: Record<string, React.ElementType> = {
   Problem: TriangleAlert,
   Solution: Lightbulb,
   "Unique Value Proposition": Gem,
@@ -44,7 +44,6 @@ export default function LeanCanvas() {
         </div>
 
         {/* Canvas */}
-
         <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-7">
 
           {canvas.map((item) => {
@@ -91,7 +90,6 @@ export default function LeanCanvas() {
                   <ul className="space-y-4">
 
                     {item.items.map((text) => (
-
                       <li
                         key={text}
                         className="flex gap-3 text-slate-600 leading-7"
@@ -103,7 +101,6 @@ export default function LeanCanvas() {
                         <span>{text}</span>
 
                       </li>
-
                     ))}
 
                   </ul>
@@ -117,7 +114,6 @@ export default function LeanCanvas() {
         </div>
 
         {/* Bottom Cards */}
-
         <div className="grid lg:grid-cols-2 gap-8 mt-10">
 
           {bottomCards.map((item) => {
