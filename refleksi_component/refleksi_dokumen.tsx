@@ -23,10 +23,6 @@ export default function ReflectionDocument() {
                 Lembar Kerja
               </h2>
 
-              <p className="text-[#0077b6] font-medium mt-1">
-                Reflection Worksheet
-              </p>
-
             </div>
 
           </div>
