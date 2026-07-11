@@ -8,11 +8,6 @@ export default function Reflection() {
         {/* Header */}
 
         <div className="text-center mb-16">
-
-          <p className="uppercase tracking-[0.25em] text-sm font-semibold text-[#0077b6]">
-            Refleksi
-          </p>
-
           <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 mt-3">
             Refleksi Pembelajaran
           </h2>

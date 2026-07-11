@@ -14,10 +14,6 @@ export default function LivePrototype() {
 
         {/* Header */}
         <div className="text-center mb-12">
-          <p className="uppercase tracking-[0.25em] text-sm font-semibold text-[#0077b6]">
-            Live Prototype
-          </p>
-
           <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 mt-3">
             Coba Prototype UniFlow
           </h2>
