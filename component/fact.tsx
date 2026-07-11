@@ -65,12 +65,12 @@ export default function Facts() {
         </div>
 
         {/* Cards Grid — 3 col top + 2 col bottom centered */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 text-justify gap-6 mb-6">
           {facts.slice(0, 3).map((fact, i) => (
             <FactCard key={i} fact={fact} />
           ))}
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-3xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 text-justify gap-6 max-w-3xl mx-auto">
           {facts.slice(3).map((fact, i) => (
             <FactCard key={i} fact={fact} />
           ))}

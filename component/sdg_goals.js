@@ -11,6 +11,10 @@ const sdgData = {
     title: "Kehidupan Sehat dan Sejahtera",
     desc: "Menjamin kehidupan sehat dan kesejahteraan bagi semua usia, termasuk akses universal terhadap layanan kesehatan, pengurangan kematian ibu dan anak, serta pencegahan penyakit menular dan tidak menular."
   },
+  4: {
+    title: "Pendidikan Berkualitas",
+    desc: "Menjamin pendidikan yang inklusif, adil, dan berkualitas bagi semua, serta meningkatkan kesempatan belajar sepanjang hayat melalui akses universal, peningkatan kualitas guru, dan pengembangan keterampilan."
+  },
   5: {
     title: "Kesetaraan Gender",
     desc: "Mencapai kesetaraan gender dan memberdayakan semua perempuan dan anak perempuan melalui penghapusan diskriminasi, peningkatan partisipasi perempuan di semua sektor, dan perlindungan hak-hak mereka."

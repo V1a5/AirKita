@@ -12,7 +12,7 @@ export default function AboutSDG() {
             Apa itu SDG 6?
           </h2>
 
-          <p className="text-[#1a4a6b] text-lg mb-12 leading-relaxed">
+          <p className="text-[#1a4a6b] text-justify text-lg mb-12 leading-relaxed">
             Tujuan ini bertujuan untuk menjamin ketersediaan serta pengelolaan
             air bersih dan sanitasi yang berkelanjutan untuk semua orang pada
             tahun 2030 — mencakup akses universal, kualitas air, dan praktik
@@ -31,7 +31,7 @@ export default function AboutSDG() {
                 <h4 className="font-bold text-[#191c1e] mb-2">
                   Akses Air Minum yang Aman dan Terjangkau
                 </h4>
-                <p className="text-sm text-[#1a4a6b]">
+                <p className="text-sm text-justify text-[#1a4a6b]">
                   Pada tahun 2030, mencapai akses universal dan merata terhadap
                   air minum yang aman dan terjangkau bagi semua orang.
                 </p>
@@ -49,7 +49,7 @@ export default function AboutSDG() {
                 <h4 className="font-bold text-[#191c1e] mb-2">
                   Sanitasi & Kebersihan Layak untuk Semua
                 </h4>
-                <p className="text-sm text-[#1a4a6b]">
+                <p className="text-sm text-justify text-[#1a4a6b]">
                   Pada tahun 2030, mencapai akses terhadap sanitasi dan kebersihan
                   yang memadai dan merata bagi semua orang, menghentikan praktik
                   buang air besar sembarangan (BABS), dengan perhatian khusus pada

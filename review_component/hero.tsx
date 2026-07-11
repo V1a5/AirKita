@@ -7,7 +7,7 @@ export default function Hero() {
                     <span className="text-gray-500">Beranda</span>
                     <span className="text-gray-400">/</span>
                     <span className="text-[#0077b6] font-semibold">
-                        Prototipe
+                        Pengujian dan Peninjauan
                     </span>
                 </div>
 
@@ -17,12 +17,12 @@ export default function Hero() {
                     <div>
                         {/* Title */}
                         <h1 className="font-headline text-5xl lg:text-6xl font-extrabold text-[#1f2937] leading-tight mb-5">
-                            Prototipe
+                            Pengujian dan Peninjauan
                         </h1>
 
                         {/* Description */}
                         <p className="text-[#1a4a6b] text-lg leading-relaxed mb-8 max-w-2xl">
-                            Tahap prototipe dilakukan untuk menguji konsep solusi yang telah dihasilkan pada tahap ideation. 
+                            Tahap pengujian dan peninjauan dilakukan untuk mengevaluasi solusi yang telah dihasilkan pada tahap prototipe.
                         </p>
 
 

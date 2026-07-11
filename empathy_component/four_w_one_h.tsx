@@ -37,7 +37,7 @@ export default function FourWOneH() {
                         <h3 className="font-headline font-bold text-[#1f2937] mb-2">
                             Akar Masalah
                         </h3>
-                        <p className="text-sm text-[#1a4a6b] leading-relaxed">
+                        <p className="text-sm text-justify text-[#1a4a6b] leading-relaxed">
                             Untuk mengumpulkan data primer langsung dari pengguna fasilitas sanitasi sehari-hari 
                             guna mengidentifikasi kesenjangan nyata antara kondisi sanitasi yang ada dengan 
                             standar SDG 6 Target 6.2 khususnya aspek yang belum terlihat dari data makro BPS/pemerintah.
@@ -52,7 +52,7 @@ export default function FourWOneH() {
                         <h3 className="font-headline font-bold text-[#1f2937] mb-2">
                             Masalah Inti
                         </h3>
-                        <p className="text-sm text-[#1a4a6b] leading-relaxed">
+                        <p className="text-sm text-justify text-[#1a4a6b] leading-relaxed">
                             Kondisi akses sanitasi responden mencakup 3 dimensi: kepemilikan & jenis fasilitas toilet pribadi, 
                             kualitas infrastruktur sanitasi publik (drainase & toilet kampus), 
                             dan praktik hygiene personal termasuk kebutuhan spesifik gender (menstrual hygiene).
@@ -67,7 +67,7 @@ export default function FourWOneH() {
                         <h3 className="font-headline font-bold text-white mb-2">
                             Metodologi & Dampak
                         </h3>
-                        <p className="text-sm text-white/90 leading-relaxed">
+                        <p className="text-sm text-justify text-white/90 leading-relaxed">
                             Survei Google Form dengan 9 pertanyaan terstruktur (3 bagian) disebarkan melalui grup WhatsApp mahasiswa. Menggunakan format Multiple Choice untuk data faktual (Q1–Q5, Q8) 
                             dan Skala Likert 1–5 untuk mengukur persepsi (Q6, Q7, Q9). Responden mengisi secara anonim sehingga jawaban lebih jujur dan objektif. Total terkumpul 23 responden dalam periode 18–22 April 2026.
                         </p>
@@ -85,7 +85,7 @@ export default function FourWOneH() {
                             <span className="text-white/80 text-xs font-bold tracking-wider uppercase mb-2 block">
                                 WHERE
                             </span>
-                            <h3 className="font-headline font-bold text-white text-lg">
+                            <h3 className="font-headline text-justify font-bold text-white text-lg">
                                 Disebarkan secara digital melalui grup WhatsApp mahasiswa sehingga responden mencerminkan kondisi 
                                 sanitasi di lingkungan kampus, kost/kontrakan sekitar kampus, dan tempat tinggal pribadi mahasiswa aktif.
                             </h3>

@@ -7,7 +7,7 @@ export default function Hero() {
                     <span className="text-gray-500">Beranda</span>
                     <span className="text-gray-400">/</span>
                     <span className="text-[#0077b6] font-semibold">
-                        Ideation
+                        Ideasi
                     </span>
                 </div>
 
@@ -21,7 +21,7 @@ export default function Hero() {
                         </h1>
 
                         {/* Description */}
-                        <p className="text-[#1a4a6b] text-lg leading-relaxed mb-8 max-w-2xl">
+                        <p className="text-[#1a4a6b] text-justify text-lg leading-relaxed mb-8 max-w-2xl">
                             Tahap ideation dilakukan untuk mengeksplorasi berbagai
                             kemungkinan solusi terhadap permasalahan sanitasi dan
                             higiene di lingkungan pendidikan. Proses ini dilakukan
@@ -39,7 +39,7 @@ export default function Hero() {
                                 <h3 className="font-bold text-lg text-gray-800">
                                     Canva Mind Map
                                 </h3>
-                                <p className="text-sm text-[#1a4a6b] mt-2">
+                                <p className="text-sm text-justify text-[#1a4a6b] mt-2">
                                     Digunakan untuk memetakan hubungan antara
                                     masalah sanitasi, penyebab, dampak, dan solusi.
                                 </p>
@@ -52,7 +52,7 @@ export default function Hero() {
                                 <h3 className="font-bold text-lg text-gray-800">
                                     SDG 6.2
                                 </h3>
-                                <p className="text-sm text-[#1a4a6b] mt-2">
+                                <p className="text-sm text-justify text-[#1a4a6b] mt-2">
                                     Sanitasi layak, akses hygiene, dan monitoring
                                     fasilitas lingkungan publik.
                                 </p>

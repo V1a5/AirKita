@@ -8,7 +8,7 @@ const navLinks = [
   { href: "/empathy", label: "Empati dan Penelitian" },
   { href: "/idea", label: "Ide" },
   { href: "/prototipe", label: "Prototipe" },
-  { href: "/pengujian", label: "Pengujian dan Peninjauan" },
+  { href: "/review", label: "Pengujian dan Peninjauan" },
   { href: "/refleksi", label: "Refleksi" },
 ];
 
